@@ -19,7 +19,7 @@ A repository of network simulation projects, topology designs, and protocol conf
 | `Activity 4_Conguis.pkt` | VLAN Segmentation & Router-on-a-Stick (ROAS) Routing | Configures VLAN 10 (1st floor) and VLAN 20 (2nd floor) on a Catalyst 2960 switch with designated access ports, routing cross-VLAN traffic through an 802.1Q trunk link to sub-interfaces on a Cisco 2811 router. |
 | `Activity 5_Conguis.pkt` | Multilayer Switch Inter-VLAN Routing (Layer 3 SVI) & Secure WLAN Integration | Implements Inter-VLAN routing directly on a Cisco Catalyst 3560 multilayer switch using Switched Virtual Interfaces (SVIs) for VLAN 10 (Main: 50.50.50.0) and VLAN 20 (Annex: 70.70.70.0), integrating a WPA/WPA2-secured wireless Access Point (SSID: LAB1) to serve wireless hosts alongside wired clients without an external router. |
 | `Activity 6_Conguis.pkt` | Multi-Floor Inter-VLAN Routing (ROAS) & Wireless Access | Configures Router-on-a-Stick using a Cisco 2811 router and 2960 switch to route traffic between multi-floor segments (VLAN 10 1st-floor, VLAN 20 2nd-floor, VLAN 30 3rd-floor) over an 802.1Q trunk, integrating an access point to extend Layer 3 connectivity to wireless clients. |
-| `` |  |  |
+| `Activity 7_Conguis.pkt` | VLAN Isolation & Centralized Server-Based DHCP Service | Configures access VLANs on a Cisco Catalyst 2960 switch to enforce strict broadcast containment between segmented hosts, integrating a dedicated network server running DHCP services (192.168.1.0/24) to automate host IP address provisioning across the subnet. |
 | `` |  |  |
 | `` |  |  |
 | `` |  |  |
