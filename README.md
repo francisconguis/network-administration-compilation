@@ -1,4 +1,4 @@
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/aaebd520-e0d5-40fe-a0a8-40233d175dc8" /># 🌐 Network Administration Lab Compilation
+# 🌐 Network Administration Lab Compilation
 
 ![Platform](https://img.shields.io/badge/Platform-Cisco%20Packet%20Tracer-005073.svg)
 ![Domain](https://img.shields.io/badge/Domain-Computer%20Networking-blue.svg)
