@@ -15,7 +15,7 @@ A repository of network simulation projects, topology designs, and protocol conf
 | :--- | :--- | :--- |
 | `Activity 1_Conguis.pkt` | Basic LAN Topologies & Multi-Subnet Switching | Configures two independent star-topology local networks (10.10.10.0 and 20.20.20.0) on Cisco Catalyst 2960 switches to test static IPv4 host addressing, intra-switch packet delivery, and broadcast domain isolation without a router. |
 | `Activity 2_Conguis.pkt` | Subnetting & Address Allocation | IPv4 Variable Length Subnet Masking (VLSM), Default Gateways |
-| `Activity 3_Conguis.pkt` | Switch Port Security & Basic CLI | MAC address sticky learning, port security violation modes |
+| `Activity 3_Conguis.pkt` | Basic Switch Configuration, SVI Management & Line Security | Focuses on configuring Cisco Catalyst 2960 switches with Switch Virtual Interface (SVI VLAN 1) management IP addresses (192.168.1.253 and .254), establishing switch-to-switch trunk/crossover links, and securing console/VTY administrative logins using password authentication. |
 | `Activity 4_Conguis.pkt` | VLAN Segmentation & Access Ports | IEEE 802.1Q encapsulation, VLAN tagging, Access mode configs |
 | `Activity 5_Conguis.pkt` | Trunking & Inter-VLAN Routing | Router-on-a-Stick (ROAS), Sub-interfaces, Trunk mode links |
 | `Activity 6_Conguis.pkt` | Inter-VLAN Routing (ROAS) with Wireless LAN Extension | Implements Router-on-a-Stick using a Cisco 2811 router and 2960 switch to route traffic between multi-floor VLANs (10, 20, 30) across an 802.1Q trunk, integrating an access point for wireless end-device connectivity. |
