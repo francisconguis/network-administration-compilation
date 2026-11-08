@@ -1,3 +1,43 @@
-# Network Administration Activity Compilation
+# 🌐 Network Administration Lab Compilation
 
-Repository for compliation of all activities in Network Administration.
+![Platform](https://img.shields.io/badge/Platform-Cisco%20Packet%20Tracer-005073.svg)
+![Domain](https://img.shields.io/badge/Domain-Computer%20Networking-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Coursework-Completed-success.svg)
+
+A repository of network simulation projects, topology designs, and protocol configuration labs built using **Cisco Packet Tracer**. This collection demonstrates hands-on implementation of switching, routing, network security, and enterprise infrastructure services.
+
+---
+
+## 📌 Lab Directory & Topology Overview
+
+| Lab File | Primary Topic | Core Protocols & Technologies Configured |
+| :--- | :--- | :--- |
+| `Activity 1_Conguis.pkt` | Basic Network Topologies & Peer-to-Peer | End-device IP configuration, ICMP testing, Switch bring-up |
+| `Activity 2_Conguis.pkt` | Subnetting & Address Allocation | IPv4 Variable Length Subnet Masking (VLSM), Default Gateways |
+| `Activity 3_Conguis.pkt` | Switch Port Security & Basic CLI | MAC address sticky learning, port security violation modes |
+| `Activity 4_Conguis.pkt` | VLAN Segmentation & Access Ports | IEEE 802.1Q encapsulation, VLAN tagging, Access mode configs |
+| `Activity 5_Conguis.pkt` | Trunking & Inter-VLAN Routing | Router-on-a-Stick (ROAS), Sub-interfaces, Trunk mode links |
+| `Activity 6_Conguis.pkt` | Dynamic Routing Protocols | OSPF / RIPv2 single-area routing, passive interfaces |
+| `Activity 7_Conguis.pkt` | Network Services (DHCP & DNS) | Dedicated & router-hosted DHCP pools, DNS resolution |
+| `Activity 8_Conguis.pkt` | Traffic Filtering & Security (ACLs) | Standard and Extended Access Control Lists (ACLs) |
+| `Activity 10_Conguis.pkt` | Multi-Subnet Corporate Infrastructure | Multi-switch uplink architecture, perimeter defense |
+| `Activity1(Finals)_Conguis.pkt` | Enterprise Capstone Network | Redundant links, multi-VLAN enterprise campus design |
+
+---
+
+## 🛠️ Key Technical Competencies Demonstrated
+
+* **Layer 2 Switching:** VLAN provisioning, 802.1Q trunking negotiation, Spanning Tree Protocol (STP) verification, and switchport port-security policies.
+* **Layer 3 Routing:** Inter-VLAN routing using sub-interfaces (Router-on-a-Stick), static route fallbacks, and dynamic routing convergence.
+* **IP Addressing & Planning:** Subnetting with VLSM, CIDR prefix optimization, gateway assignment, and IPv4 address conservation.
+* **Network Services & Hardening:** DHCP server configuration, DNS name binding, standard/extended Access Control Lists (ACLs) for ingress/egress filtering, and SSH/console administrative credentials.
+
+---
+
+## 🚀 How to Open and Inspect Labs
+
+1. **Prerequisites:** Install [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) (version 8.0 or newer recommended).
+2. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/francisconguis/network-administration-compilation.git](https://github.com/francisconguis/network-administration-compilation.git)
