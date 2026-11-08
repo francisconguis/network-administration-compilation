@@ -23,8 +23,8 @@ A repository of network simulation projects, topology designs, and protocol conf
 | `Activity 8_Conguis.pkt` | Multi-Router Interface Routing & Router-Based Multi-VLAN DHCP Services | Utilizes a Cisco 2811 router with multiple routed physical interfaces (Fa 0/0 at 10.10.10.1 and Fa 0/1 at 20.20.20.1) connected to separate Catalyst 2960 switches, configuring native router DHCP pools to dynamically lease IP addresses to hosts in VLAN 10 (B1) and VLAN 20 (B2) while enabling full inter-VLAN routing. |
 | `Activity 10_Conguis.pkt` | Multi-Segment Routed Enterprise Network with Integrated WLAN | Deploys a Cisco 2911 ISR router interconnecting three distinct switched subnets across routed GigabitEthernet interfaces (g0/0 for VLAN 10 10.10.10.0, g0/1 for VLAN 20 192.168.1.0, and g0/2 for VLAN 30 172.10.10.0), featuring WPA-secured wireless AP integration (SSID: LAB2) to facilitate full inter-subnet routing across wired and wireless hosts. |
 | `Activity 11_Conguis.pkt` | Spanning Tree Protocol (STP) Topology Convergence & Port Role Election | Configures a redundant three-switch Layer 2 mesh using Cisco Catalyst 2960s to analyze Spanning Tree Protocol (STP) operations, evaluating Bridge ID (MAC: SW1, SW2, SW3) election of the Root Bridge, Root Ports (RP), Designated Ports (DP), and Non-Designated/Alternate blocking ports (NDP) to prevent switching loops. |
-| `` |  |  |
-| `` |  |  |
+| `Activity1(Finals)_Conguis.pkt` | Layer 2 Security: DHCP Snooping & Rogue DHCP Server Mitigation | Implements Layer 2 network hardening on a Cisco Catalyst 2960 switch using DHCP Snooping on VLAN 10 (IT), establishing trusted uplinks (Fa0/1 to Router0, Fa0/2 to Main Server) and untrusted access ports to block unauthorized leases from a rogue/fake hacker DHCP server. |
+| `Activity2(Finals)_Conguis.pkt` | Site-to-Site Wireless Bridge & SOHO Gateway Interconnection | Connects a Main Office and Annex building across a wireless bridge between two HomeRouter devices, distributing connectivity through downstream Catalyst 2960 switches to end workstations with customized local DHCP address pooling (192.168.1.1, starting IP: .200). |
 | `` |  |  |
 | `` |  |  |
 | `` |  |  |
