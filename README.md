@@ -14,7 +14,7 @@ A repository of network simulation projects, topology designs, and protocol conf
 | Lab File | Topic Title | Content |
 | :--- | :--- | :--- |
 | `Activity 1_Conguis.pkt` | Basic LAN Topologies & Multi-Subnet Switching | Configures two independent star-topology local networks (10.10.10.0 and 20.20.20.0) on Cisco Catalyst 2960 switches to test static IPv4 host addressing, intra-switch packet delivery, and broadcast domain isolation without a router. |
-| `Activity 2_Conguis.pkt` | Subnetting & Address Allocation | IPv4 Variable Length Subnet Masking (VLSM), Default Gateways |
+| `Activity 2_Conguis.pkt` | Multi-Switch Star Topology & Switch Uplink Interconnection | Demonstrates inter-switch expansion using two Cisco Catalyst 2950-24 switches (S1 and S2) interconnected via an Ethernet crossover link, connecting end devices (PC0 through PC3) within a unified flat subnet (10.10.10.0) to verify Layer 2 frame forwarding across uplinks. |
 | `Activity 3_Conguis.pkt` | Basic Switch Configuration, SVI Management & Line Security | Focuses on configuring Cisco Catalyst 2960 switches with Switch Virtual Interface (SVI VLAN 1) management IP addresses (192.168.1.253 and .254), establishing switch-to-switch trunk/crossover links, and securing console/VTY administrative logins using password authentication. |
 | `Activity 4_Conguis.pkt` | VLAN Segmentation & Access Ports | IEEE 802.1Q encapsulation, VLAN tagging, Access mode configs |
 | `Activity 5_Conguis.pkt` | Trunking & Inter-VLAN Routing | Router-on-a-Stick (ROAS), Sub-interfaces, Trunk mode links |
