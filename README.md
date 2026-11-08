@@ -11,9 +11,9 @@ A repository of network simulation projects, topology designs, and protocol conf
 
 ## 📌 Lab Directory & Topology Overview
 
-| Lab File | Topic Title | What it's about |
+| Lab File | Topic Title | Content |
 | :--- | :--- | :--- |
-| `Activity 1_Conguis.pkt` | Basic Network Topologies & Peer-to-Peer | End-device IP configuration, ICMP testing, Switch bring-up |
+| `Activity 1_Conguis.pkt` | Basic LAN Topologies & Multi-Subnet Switching | Configures two independent star-topology local networks (10.10.10.0 and 20.20.20.0) on Cisco Catalyst 2960 switches to test static IPv4 host addressing, intra-switch packet delivery, and broadcast domain isolation without a router. |
 | `Activity 2_Conguis.pkt` | Subnetting & Address Allocation | IPv4 Variable Length Subnet Masking (VLSM), Default Gateways |
 | `Activity 3_Conguis.pkt` | Switch Port Security & Basic CLI | MAC address sticky learning, port security violation modes |
 | `Activity 4_Conguis.pkt` | VLAN Segmentation & Access Ports | IEEE 802.1Q encapsulation, VLAN tagging, Access mode configs |
