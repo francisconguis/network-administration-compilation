@@ -11,14 +11,14 @@ A repository of network simulation projects, topology designs, and protocol conf
 
 ## 📌 Lab Directory & Topology Overview
 
-| Lab File | Primary Topic | Core Protocols & Technologies Configured |
+| Lab File | Topic Title | What it's about |
 | :--- | :--- | :--- |
 | `Activity 1_Conguis.pkt` | Basic Network Topologies & Peer-to-Peer | End-device IP configuration, ICMP testing, Switch bring-up |
 | `Activity 2_Conguis.pkt` | Subnetting & Address Allocation | IPv4 Variable Length Subnet Masking (VLSM), Default Gateways |
 | `Activity 3_Conguis.pkt` | Switch Port Security & Basic CLI | MAC address sticky learning, port security violation modes |
 | `Activity 4_Conguis.pkt` | VLAN Segmentation & Access Ports | IEEE 802.1Q encapsulation, VLAN tagging, Access mode configs |
 | `Activity 5_Conguis.pkt` | Trunking & Inter-VLAN Routing | Router-on-a-Stick (ROAS), Sub-interfaces, Trunk mode links |
-| `Activity 6_Conguis.pkt` | Dynamic Routing Protocols | OSPF / RIPv2 single-area routing, passive interfaces |
+| `Activity 6_Conguis.pkt` | Inter-VLAN Routing (ROAS) with Wireless LAN Extension | Implements Router-on-a-Stick using a Cisco 2811 router and 2960 switch to route traffic between multi-floor VLANs (10, 20, 30) across an 802.1Q trunk, integrating an access point for wireless end-device connectivity. |
 | `Activity 7_Conguis.pkt` | Network Services (DHCP & DNS) | Dedicated & router-hosted DHCP pools, DNS resolution |
 | `Activity 8_Conguis.pkt` | Traffic Filtering & Security (ACLs) | Standard and Extended Access Control Lists (ACLs) |
 | `Activity 10_Conguis.pkt` | Multi-Subnet Corporate Infrastructure | Multi-switch uplink architecture, perimeter defense |
