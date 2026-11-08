@@ -21,6 +21,19 @@ A repository of network simulation projects, topology designs, and protocol conf
 | `Activity 6_Conguis.pkt` | Multi-Floor Inter-VLAN Routing (ROAS) & Wireless Access | Configures Router-on-a-Stick using a Cisco 2811 router and 2960 switch to route traffic between multi-floor segments (VLAN 10 1st-floor, VLAN 20 2nd-floor, VLAN 30 3rd-floor) over an 802.1Q trunk, integrating an access point to extend Layer 3 connectivity to wireless clients. |
 | `` |  |  |
 | `` |  |  |
+| `` |  |  |
+| `` |  |  |
+| `` |  |  |
+| `` |  |  |
+| `` |  |  |
+| `` |  |  |
+| `` |  |  |
+| `` |  |  |
+| `` |  |  |
+| `` |  |  |
+| `` |  |  |
+| `` |  |  |
+| `` |  |  |
 
 ---
 
