@@ -1,4 +1,4 @@
-# 🌐 Network Administration Lab Compilation
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/aaebd520-e0d5-40fe-a0a8-40233d175dc8" /># 🌐 Network Administration Lab Compilation
 
 ![Platform](https://img.shields.io/badge/Platform-Cisco%20Packet%20Tracer-005073.svg)
 ![Domain](https://img.shields.io/badge/Domain-Computer%20Networking-blue.svg)
@@ -28,9 +28,9 @@ A repository of network simulation projects, topology designs, and protocol conf
 | `Activity3(Finals)_Conguis.pkt` | Dual-LAN Architecture with Multi-Band Wireless & SOHO Routing | Designs two isolated networks (LAN1 and LAN2): LAN1 pairs a gateway router (192.168.1.1, start IP: .20) with a 2960 switch and an AP (SSID: LAB1) serving mobile clients; LAN2 demonstrates dual-band SOHO wireless routing across distinct 2.4 GHz (SSID: Main1) and 5.0 GHz (SSID: Main2) bands with integrated switched host distribution. |
 | `Assignment 1_Conguis.pkt` | Multi-LAN Routing & Inter-Switch Uplink Expansion | Configures a Cisco 2911 router to route between two primary subnets (10.10.0.0/24 via G 0/0 and 192.168.0.0/24 via G 0/1), demonstrating Layer 2 switch expansion across an Ethernet crossover link (Switch0 to Switch1) to extend LAN1/LAN2 across a shared default gateway (10.10.0.254) while enabling routed reachability to LAN3 (PC2). |
 | `MA1_Conguis.pkt` | Multi-Switch VLAN Trunking & Router-on-a-Stick (ROAS) | Configures VLAN 14 (172.100.20.0) and VLAN 15 (172.100.10.0) across two Catalyst 2960 switches connected via an 802.1Q trunk link (fa0/3 to fa0/3), routing inter-VLAN traffic through an upstream router (Router0) via sub-interfaces with shared gateways (.254). |
-| `` |  |  |
-| `` |  |  |
-| `` |  |  |
+| `MA2_Conguis.pkt` | Multi-Floor Enterprise Campus Network with Dedicated WLAN Subnets | Implements a centralized routing topology using a Cisco 2911 router interconnecting three floor segments across routed interfaces: 1st floor (10.10.10.0/24 via Gig0/1) with wired endpoints, network printing, and AP1 (SSID: LAB1); 2nd floor (20.20.20.0/24 via Gig0/2) with wired PCs and AP2 (SSID: LAB2); and a dedicated wireless 3rd floor (30.30.30.0/24 via Gig0/0) managed by AP0 (SSID: LAB3) for mobile tablet devices. |
+| `Participation 1_Conguis.pkt` | Multi-Zone Wireless Mesh & SOHO Router Interconnection | Interconnects four distributed local networks (LAN1 through LAN4) using Linksys WRT300N wireless routers configured with unique SSIDs (lan1–lan4) and sequential router management IPs (10.10.10.1–10.10.10.4 pointing to default gateway 10.10.10.254), routing traffic across interconnected switches (Switch0–Switch3) to serve both wired PCs and authenticated wireless laptops. |
+| `Participation 2_Conguis.pkt` | Centralized Server Infrastructure with Wireless AP & Dynamic Client Provisioning | Configures a dedicated local network server (100.10.10.10) uplinked to an Access Point (SSID: Lab1) running centralized DHCP services to dynamically assign IP parameters (100.10.10.11–.14, DNS: 100.10.10.10, DG: 100.10.10.254) across authenticated wireless laptops and mobile smartphones. |
 | `` |  |  |
 | `` |  |  |
 | `` |  |  |
