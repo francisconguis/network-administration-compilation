@@ -25,9 +25,9 @@ A repository of network simulation projects, topology designs, and protocol conf
 | `Activity 11_Conguis.pkt` | Spanning Tree Protocol (STP) Topology Convergence & Port Role Election | Configures a redundant three-switch Layer 2 mesh using Cisco Catalyst 2960s to analyze Spanning Tree Protocol (STP) operations, evaluating Bridge ID (MAC: SW1, SW2, SW3) election of the Root Bridge, Root Ports (RP), Designated Ports (DP), and Non-Designated/Alternate blocking ports (NDP) to prevent switching loops. |
 | `Activity1(Finals)_Conguis.pkt` | Layer 2 Security: DHCP Snooping & Rogue DHCP Server Mitigation | Implements Layer 2 network hardening on a Cisco Catalyst 2960 switch using DHCP Snooping on VLAN 10 (IT), establishing trusted uplinks (Fa0/1 to Router0, Fa0/2 to Main Server) and untrusted access ports to block unauthorized leases from a rogue/fake hacker DHCP server. |
 | `Activity2(Finals)_Conguis.pkt` | Site-to-Site Wireless Bridge & SOHO Gateway Interconnection | Connects a Main Office and Annex building across a wireless bridge between two HomeRouter devices, distributing connectivity through downstream Catalyst 2960 switches to end workstations with customized local DHCP address pooling (192.168.1.1, starting IP: .200). |
-| `` |  |  |
-| `` |  |  |
-| `` |  |  |
+| `Activity3(Finals)_Conguis.pkt` | Dual-LAN Architecture with Multi-Band Wireless & SOHO Routing | Designs two isolated networks (LAN1 and LAN2): LAN1 pairs a gateway router (192.168.1.1, start IP: .20) with a 2960 switch and an AP (SSID: LAB1) serving mobile clients; LAN2 demonstrates dual-band SOHO wireless routing across distinct 2.4 GHz (SSID: Main1) and 5.0 GHz (SSID: Main2) bands with integrated switched host distribution. |
+| `Assignment 1_Conguis.pkt` | Multi-LAN Routing & Inter-Switch Uplink Expansion | Configures a Cisco 2911 router to route between two primary subnets (10.10.0.0/24 via G 0/0 and 192.168.0.0/24 via G 0/1), demonstrating Layer 2 switch expansion across an Ethernet crossover link (Switch0 to Switch1) to extend LAN1/LAN2 across a shared default gateway (10.10.0.254) while enabling routed reachability to LAN3 (PC2). |
+| `MA1_Conguis.pkt` | Multi-Switch VLAN Trunking & Router-on-a-Stick (ROAS) | Configures VLAN 14 (172.100.20.0) and VLAN 15 (172.100.10.0) across two Catalyst 2960 switches connected via an 802.1Q trunk link (fa0/3 to fa0/3), routing inter-VLAN traffic through an upstream router (Router0) via sub-interfaces with shared gateways (.254). |
 | `` |  |  |
 | `` |  |  |
 | `` |  |  |
